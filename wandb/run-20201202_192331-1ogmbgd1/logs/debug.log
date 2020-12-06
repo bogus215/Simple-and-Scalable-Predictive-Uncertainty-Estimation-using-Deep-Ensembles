@@ -1,0 +1,60 @@
+2020-12-02 19:23:31,030 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 19:23:31,031 INFO    MainThread:26212 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 19:23:31,031 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 19:23:31,031 INFO    MainThread:26212 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-1ogmbgd1\logs\debug.log
+2020-12-02 19:23:31,031 INFO    MainThread:26212 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-1ogmbgd1\logs\debug-internal.log
+2020-12-02 19:23:31,031 INFO    MainThread:26212 [wandb_init.py:init():359] wandb.init() called when a run is still active
+2020-12-02 19:23:31,041 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 19:23:31,041 INFO    MainThread:26212 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 19:23:31,041 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 19:23:31,041 INFO    MainThread:26212 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-1dzqspok\logs\debug.log
+2020-12-02 19:23:31,041 INFO    MainThread:26212 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-1dzqspok\logs\debug-internal.log
+2020-12-02 19:23:31,042 INFO    MainThread:26212 [wandb_init.py:init():359] wandb.init() called when a run is still active
+2020-12-02 19:23:31,051 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 19:23:31,051 INFO    MainThread:26212 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 19:23:31,051 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 19:23:31,051 INFO    MainThread:26212 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-3bbg2b15\logs\debug.log
+2020-12-02 19:23:31,051 INFO    MainThread:26212 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-3bbg2b15\logs\debug-internal.log
+2020-12-02 19:23:31,052 INFO    MainThread:26212 [wandb_init.py:init():359] wandb.init() called when a run is still active
+2020-12-02 19:23:31,058 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 19:23:31,058 INFO    MainThread:26212 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 19:23:31,059 INFO    MainThread:26212 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 19:23:31,059 INFO    MainThread:26212 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-bud6oa6o\logs\debug.log
+2020-12-02 19:23:31,059 INFO    MainThread:26212 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_192331-bud6oa6o\logs\debug-internal.log
+2020-12-02 19:23:31,059 INFO    MainThread:26212 [wandb_init.py:init():359] wandb.init() called when a run is still active
+2020-12-02 19:23:31,060 INFO    MainThread:26212 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-12-02 19:23:31,061 INFO    MainThread:26212 [wandb_run.py:_restore():1160] restore
+2020-12-02 19:23:31,063 INFO    MainThread:26212 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "5819994fc46b446cbadf8cdc8b7f66c6"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1057
+      total_bytes: 3395
+    }
+  }
+}
+
+2020-12-02 19:23:33,064 INFO    MainThread:26212 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "c6613758de52447b891ee31c2e67ca0a"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 10175
+      total_bytes: 10175
+    }
+  }
+}
+
+2020-12-02 19:23:34,185 INFO    MainThread:26212 [wandb_run.py:_show_summary():1450] rendering summary
+2020-12-02 19:23:34,186 INFO    MainThread:26212 [wandb_run.py:_show_files():1517] logging synced files
+2020-12-02 19:23:34,186 INFO    MainThread:26212 [internal.py:handle_exit():138] Internal process exited

@@ -1,0 +1,11 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+===> epoch 1
+  0%|          | 0/500 [00:00<?, ?it/s]                                       Traceback (most recent call last):
+  File "D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py", line 115, in <module>
+    main()
+  File "D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py", line 111, in main
+    train(args)
+  File "D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py", line 44, in train
+    total_loss += (loss.item() + loss2.item())
+UnboundLocalError: local variable 'loss' referenced before assignment

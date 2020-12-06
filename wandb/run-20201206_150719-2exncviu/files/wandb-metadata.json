@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.6",
+    "heartbeatAt": "2020-12-06T06:07:21.230097",
+    "startedAt": "2020-12-06T06:07:19.024097",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "train_dropout.py",
+    "program": "D:/2020-2/\ube44\uc988\ub2c8\uc2a4\uc560\ub110\ub9ac\ud2f1\uc2a4/\ub17c\ubb38\ub9ac\ubdf0/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_dropout.py",
+    "git": {
+        "remote": null,
+        "commit": "6da2fbec8aa2a7b163cceb0dc25fe70294944876"
+    },
+    "email": "wlstn215@gmail.com",
+    "root": "D:/2020-2/\ube44\uc988\ub2c8\uc2a4\uc560\ub110\ub9ac\ud2f1\uc2a4/\ub17c\ubb38\ub9ac\ubdf0/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles",
+    "host": "DESKTOP-3D6A7UI",
+    "username": "Jinsoo",
+    "executable": "C:\\Users\\Jinsoo\\Anaconda3\\envs\\torch\\python.exe"
+}

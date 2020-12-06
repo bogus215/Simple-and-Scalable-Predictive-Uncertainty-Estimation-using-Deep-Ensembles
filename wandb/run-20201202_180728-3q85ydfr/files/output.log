@@ -1,0 +1,571 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+===> epoch 1
+  0%|          | 0/500 [00:00<?, ?it/s]Python 3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.18.1 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.18.1
+
+Out[1]: 
+tensor([[-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        ...,
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.]], device='cuda:0')
+Out[2]: 
+tensor([[-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        ...,
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.]], device='cuda:0')
+Python 3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)] on win32
+Out[8]: tensor(2.4094, device='cuda:0', grad_fn=<NllLossBackward>)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-9-3ade8efe3380>", line 1, in <module>
+    feature.grad.data
+AttributeError: 'NoneType' object has no attribute 'data'
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-11-55567cce0188>", line 1, in <module>
+    feature.grad.item()
+AttributeError: 'NoneType' object has no attribute 'item'
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-12-85e9406ff794>", line 1, in <module>
+    feature.grad.item
+AttributeError: 'NoneType' object has no attribute 'item'
+Out[15]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[24]: 
+tensor([[-8.0355e-04,  4.5133e-04,  9.7867e-05,  ..., -6.0062e-04,
+         -2.2580e-04,  2.9740e-04],
+        [ 4.4304e-04,  5.5054e-04, -1.1981e-04,  ...,  5.1293e-04,
+         -6.7633e-05, -1.4030e-05],
+        [-2.0765e-05,  5.4326e-04,  5.4063e-04,  ..., -5.9050e-05,
+          1.0179e-04, -1.8045e-04],
+        ...,
+        [-8.3998e-05, -2.9521e-05, -4.9620e-04,  ..., -3.7156e-04,
+         -2.3215e-05, -2.1693e-04],
+        [-1.0964e-03, -7.2930e-04,  5.9930e-04,  ..., -3.1547e-04,
+          2.4615e-04,  1.0207e-03],
+        [-9.4639e-05, -9.0388e-04,  9.4388e-05,  ..., -8.2293e-04,
+         -3.3148e-04,  4.1816e-05]], device='cuda:0')
+Out[25]: torch.Size([100, 784])
+Out[26]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-33-3ade8efe3380>", line 1, in <module>
+    feature.grad.data
+AttributeError: 'NoneType' object has no attribute 'data'
+Out[34]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-41-3ade8efe3380>", line 1, in <module>
+    feature.grad.data
+AttributeError: 'NoneType' object has no attribute 'data'
+Out[45]: 
+tensor([[-7.0591e-05,  3.5083e-04, -2.0037e-04,  ..., -4.2816e-05,
+          8.4089e-05,  8.0282e-05],
+        [-1.2645e-04, -1.5006e-04,  3.1296e-04,  ..., -1.5400e-04,
+          1.6925e-04, -2.8220e-04],
+        [-6.1737e-04,  2.8268e-04,  2.6506e-04,  ...,  5.7751e-04,
+         -3.0282e-04,  8.3774e-05],
+        ...,
+        [ 1.0568e-04,  3.7792e-04,  5.3112e-04,  ..., -1.4561e-04,
+          4.5511e-05,  2.0142e-04],
+        [-3.0624e-04, -2.1129e-05,  3.4199e-04,  ...,  8.7319e-05,
+          1.7932e-04,  2.2900e-04],
+        [ 9.0535e-05, -1.9493e-04, -6.2406e-04,  ..., -3.3506e-04,
+         -4.3002e-04,  3.5699e-05]], device='cuda:0')
+Out[46]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-54-4ec2431efd94>", line 1, in <module>
+    feautre.grad
+NameError: name 'feautre' is not defined
+Out[55]: 
+tensor([[ 2.9670e-05,  2.1168e-04, -1.5195e-04,  ..., -3.3031e-05,
+         -3.5441e-05, -3.5253e-04],
+        [-4.0760e-04, -1.8341e-04,  3.7544e-04,  ..., -3.4076e-04,
+          1.0243e-04, -9.3058e-05],
+        [-9.3644e-05,  8.4386e-06, -1.0427e-05,  ...,  1.5109e-05,
+         -1.4179e-05, -4.0810e-05],
+        ...,
+        [ 1.7924e-04, -1.6245e-04, -1.1415e-04,  ..., -4.8935e-06,
+         -7.4871e-05, -6.7674e-05],
+        [-2.2541e-04, -1.2344e-05,  5.2165e-05,  ...,  1.4743e-04,
+         -5.4461e-05, -1.6514e-04],
+        [ 6.0750e-05, -4.4218e-04, -7.3738e-04,  ...,  1.2808e-04,
+         -4.9033e-04, -1.6070e-04]], device='cuda:0')
+Out[56]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[67]: 
+tensor([[ 2.9670e-05,  2.1168e-04, -1.5195e-04,  ..., -3.3031e-05,
+         -3.5441e-05, -3.5253e-04],
+        [-4.0760e-04, -1.8341e-04,  3.7544e-04,  ..., -3.4076e-04,
+          1.0243e-04, -9.3058e-05],
+        [-9.3644e-05,  8.4386e-06, -1.0427e-05,  ...,  1.5109e-05,
+         -1.4179e-05, -4.0810e-05],
+        ...,
+        [ 1.7924e-04, -1.6245e-04, -1.1415e-04,  ..., -4.8935e-06,
+         -7.4871e-05, -6.7674e-05],
+        [-2.2541e-04, -1.2344e-05,  5.2165e-05,  ...,  1.4743e-04,
+         -5.4461e-05, -1.6514e-04],
+        [ 6.0750e-05, -4.4218e-04, -7.3738e-04,  ...,  1.2808e-04,
+         -4.9033e-04, -1.6070e-04]], device='cuda:0')
+Out[68]: 
+tensor([[-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        ...,
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.]], device='cuda:0',
+       requires_grad=True)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-69-7ca7a810d1a0>", line 1, in <module>
+    feature.clon()
+AttributeError: 'Tensor' object has no attribute 'clon'
+Out[70]: 
+tensor([[-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        ...,
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.]], device='cuda:0',
+       grad_fn=<CloneBackward>)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-71-34b411dbfd53>", line 1, in <module>
+    torch.autograd.grad(loss1,feature)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[72]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[75]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[87]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-95-232612460cee>", line 1, in <module>
+    grads = torch.autograd.grad(loss1,adv_feature,only_inputs=True)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-96-6b26b92f020d>", line 1, in <module>
+    torch.autograd.grad(loss1,adv_feature,only_inputs=True)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-97-2a07cfc4ce99>", line 1, in <module>
+    torch.autograd.grad(loss1,adv_feature,only_inputs=True,grad_outputs=None)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[99]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[103]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-111-232612460cee>", line 1, in <module>
+    grads = torch.autograd.grad(loss1,adv_feature,only_inputs=True)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-112-a66c713af79a>", line 1, in <module>
+    grads = torch.autograd.grad(loss1,adv_feature,only_inputs=True,allow_unused=True)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[114]: (None,)
+Out[117]: (None,)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-118-322a7cb5bd27>", line 11, in <module>
+    grads = torch.autograd.grad(loss1,adv_feature,only_inputs=True)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 192, in grad
+    inputs, allow_unused)
+RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+Out[119]: (None,)
+Out[120]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[123]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[137]: 
+tensor([[-1.8439e-05,  1.3038e-04, -1.8969e-04,  ...,  2.0519e-04,
+         -1.3427e-05, -2.7183e-04],
+        [-5.0844e-05, -1.5731e-04,  1.8865e-04,  ..., -5.3541e-05,
+          1.3561e-04,  3.0937e-04],
+        [-2.5239e-05,  1.1855e-04,  7.2211e-05,  ...,  5.9937e-05,
+          1.1112e-04, -2.5757e-04],
+        ...,
+        [-7.8701e-06, -8.0598e-05,  9.6835e-06,  ..., -5.4472e-05,
+         -1.0976e-04,  1.1250e-04],
+        [-2.8076e-05,  5.0477e-05, -5.0439e-06,  ..., -5.2757e-05,
+         -2.0095e-05, -1.5680e-04],
+        [ 2.6755e-05, -1.8219e-06, -2.5072e-04,  ...,  2.2129e-04,
+          1.5309e-04, -2.3221e-05]], device='cuda:0')
+Out[138]: torch.Size([100, 784])
+Out[140]: 
+tensor([[-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        ...,
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.],
+        [-1., -1., -1.,  ..., -1., -1., -1.]], device='cuda:0',
+       requires_grad=True)
+Out[141]: tensor(1., device='cuda:0', grad_fn=<MaxBackward1>)
+Out[142]: tensor(-1., device='cuda:0', grad_fn=<MinBackward1>)
+Out[143]: 0.02
+Out[146]: 
+tensor([[-1.0000, -1.0000, -1.0000,  ..., -1.0000, -1.0000, -1.0000],
+        [-1.0000, -1.0000, -1.0000,  ..., -1.0000, -1.0000, -1.0000],
+        [-1.0000, -1.0000, -1.0000,  ..., -1.0000, -1.0000, -1.0000],
+        ...,
+        [-1.0000, -1.0000, -1.0000,  ..., -1.0000, -1.0000, -1.0000],
+        [-1.0000, -1.0000, -1.0000,  ..., -1.0000, -1.0000, -1.0000],
+        [-1.0000, -1.0000, -1.0000,  ..., -1.0000, -1.0000, -1.0000]],
+       device='cuda:0', grad_fn=<AddBackward0>)
+Out[147]: 
+tensor([[-1.8439e-05,  1.3038e-04, -1.8969e-04,  ...,  2.0519e-04,
+         -1.3427e-05, -2.7183e-04],
+        [-5.0844e-05, -1.5731e-04,  1.8865e-04,  ..., -5.3541e-05,
+          1.3561e-04,  3.0937e-04],
+        [-2.5239e-05,  1.1855e-04,  7.2211e-05,  ...,  5.9937e-05,
+          1.1112e-04, -2.5757e-04],
+        ...,
+        [-7.8701e-06, -8.0598e-05,  9.6835e-06,  ..., -5.4472e-05,
+         -1.0976e-04,  1.1250e-04],
+        [-2.8076e-05,  5.0477e-05, -5.0439e-06,  ..., -5.2757e-05,
+         -2.0095e-05, -1.5680e-04],
+        [ 2.6755e-05, -1.8219e-06, -2.5072e-04,  ...,  2.2129e-04,
+          1.5309e-04, -2.3221e-05]], device='cuda:0')
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-150-52a0569421b1>", line 1, in <module>
+    loss.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[153]: 
+tensor([[-1.8439e-05,  1.3038e-04, -1.8969e-04,  ...,  2.0519e-04,
+         -1.3427e-05, -2.7183e-04],
+        [-5.0844e-05, -1.5731e-04,  1.8865e-04,  ..., -5.3541e-05,
+          1.3561e-04,  3.0937e-04],
+        [-2.5239e-05,  1.1855e-04,  7.2211e-05,  ...,  5.9937e-05,
+          1.1112e-04, -2.5757e-04],
+        ...,
+        [-7.8701e-06, -8.0598e-05,  9.6835e-06,  ..., -5.4472e-05,
+         -1.0976e-04,  1.1250e-04],
+        [-2.8076e-05,  5.0477e-05, -5.0439e-06,  ..., -5.2757e-05,
+         -2.0095e-05, -1.5680e-04],
+        [ 2.6755e-05, -1.8219e-06, -2.5072e-04,  ...,  2.2129e-04,
+          1.5309e-04, -2.3221e-05]], device='cuda:0')
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-155-52a0569421b1>", line 1, in <module>
+    loss.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[159]: tensor(0.6105, device='cuda:0', grad_fn=<NllLossBackward>)
+Out[160]: tensor(0.6105, device='cuda:0', grad_fn=<NllLossBackward>)
+Out[162]: tensor(0.6105, device='cuda:0', grad_fn=<NllLossBackward>)
+Out[163]: tensor(0.6107, device='cuda:0', grad_fn=<NllLossBackward>)
+Out[165]: 
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)
+Out[169]: tensor([100., 200.], grad_fn=<MulBackward0>)
+Out[171]: tensor(300., grad_fn=<SumBackward0>)
+None
+tensor([100., 100.])
+tensor([1., 2.], requires_grad=True)
+tensor([0.9000, 1.9000], requires_grad=True)
+None
+tensor([100., 100.])
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-188-52a0569421b1>", line 1, in <module>
+    loss.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+None
+tensor([100., 100.])
+tensor([1., 2.], requires_grad=True)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-193-ede37a3e5fcd>", line 1, in <module>
+    loss1.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-199-ede37a3e5fcd>", line 1, in <module>
+    loss1.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-206-ede37a3e5fcd>", line 1, in <module>
+    loss1.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+tensor([200., 200.])
+D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py:1: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the gradient for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations.
+  # %% library
+None
+None
+tensor([200., 200.])
+D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py:15: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the gradient for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations.
+  
+None
+D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py:1: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the gradient for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations.
+  # %% library
+None
+tensor([200., 200.])
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-223-ede37a3e5fcd>", line 1, in <module>
+    loss1.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[225]: tensor(300., grad_fn=<SumBackward0>)
+Out[226]: tensor(300., grad_fn=<SumBackward0>)
+Out[227]: tensor([1., 2.], grad_fn=<CloneBackward>)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-228-8fdf29504afa>", line 1, in <module>
+    z1
+NameError: name 'z1' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-229-04358ba4b61b>", line 1, in <module>
+    x1
+NameError: name 'x1' is not defined
+Out[230]: tensor([200., 200.])
+D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_ensemble_AT.py:1: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the gradient for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations.
+  # %% library
+tensor([100., 100.])
+tensor([1., 2.], requires_grad=True)
+tensor([0.9000, 1.9000], requires_grad=True)
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-234-b7849baedb9e>", line 1, in <module>
+    loss2.backward()
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling backward the first time.
+Out[238]: tensor(600., grad_fn=<SumBackward0>)
+Out[239]: tensor(300., grad_fn=<SumBackward0>)
+tensor([1., 2.], requires_grad=True)
+tensor([0.7000, 1.7000], requires_grad=True)
+tensor([300., 300.])
+tensor([100., 100.])
+tensor([300., 300.])
+tensor([1., 2.], requires_grad=True)
+tensor([0.7000, 1.7000], requires_grad=True)
+Out[257]: 0.9419892132282257
+  0%|          | 1/500 [1:04:28<536:16:41, 3868.94s/it]  1%|▏         | 7/500 [1:04:29<370:52:54, 2708.26s/it]  3%|▎         | 13/500 [1:04:29<256:27:29, 1895.79s/it]  4%|▍         | 19/500 [1:04:29<177:18:34, 1327.06s/it]  5%|▌         | 26/500 [1:04:29<122:18:40, 928.95s/it]   6%|▋         | 32/500 [1:04:29<84:32:05, 650.27s/it]   8%|▊         | 38/500 [1:04:29<58:24:59, 455.19s/it]  9%|▉         | 44/500 [1:04:29<40:21:39, 318.64s/it] 10%|█         | 51/500 [1:04:29<27:49:10, 223.05s/it] 12%|█▏        | 58/500 [1:04:29<19:10:14, 156.14s/it] 13%|█▎        | 65/500 [1:04:30<13:12:27, 109.30s/it] 14%|█▍        | 72/500 [1:04:30<9:05:49, 76.52s/it]   16%|█▌        | 79/500 [1:04:30<6:15:51, 53.57s/it] 17%|█▋        | 86/500 [1:04:30<4:18:45, 37.50s/it] 18%|█▊        | 92/500 [1:04:30<2:58:32, 26.26s/it] 20%|█▉        | 99/500 [1:04:30<2:02:52, 18.38s/it] 21%|██        | 105/500 [1:04:30<1:24:45, 12.87s/it] 22%|██▏       | 112/500 [1:04:30<58:18,  9.02s/it]   24%|██▍       | 119/500 [1:04:30<40:06,  6.32s/it] 25%|██▌       | 125/500 [1:04:31<27:40,  4.43s/it] 26%|██▋       | 132/500 [1:04:31<19:02,  3.10s/it] 28%|██▊       | 139/500 [1:04:31<13:06,  2.18s/it] 29%|██▉       | 146/500 [1:04:31<09:01,  1.53s/it] 31%|███       | 153/500 [1:04:31<06:13,  1.08s/it] 32%|███▏      | 160/500 [1:04:31<04:17,  1.32it/s] 33%|███▎      | 167/500 [1:04:31<02:58,  1.87it/s] 35%|███▍      | 174/500 [1:04:31<02:03,  2.63it/s] 36%|███▌      | 181/500 [1:04:31<01:26,  3.69it/s] 38%|███▊      | 188/500 [1:04:32<01:00,  5.14it/s] 39%|███▉      | 195/500 [1:04:32<00:42,  7.10it/s] 40%|████      | 202/500 [1:04:32<00:30,  9.66it/s] 42%|████▏     | 209/500 [1:04:32<00:22, 12.93it/s] 43%|████▎     | 216/500 [1:04:32<00:16, 16.92it/s] 45%|████▍     | 223/500 [1:04:32<00:12, 21.62it/s] 46%|████▌     | 230/500 [1:04:32<00:10, 26.75it/s] 47%|████▋     | 237/500 [1:04:32<00:08, 32.11it/s] 49%|████▉     | 244/500 [1:04:33<00:06, 37.35it/s] 50%|█████     | 251/500 [1:04:33<00:05, 42.33it/s] 52%|█████▏    | 258/500 [1:04:33<00:05, 46.68it/s] 53%|█████▎    | 265/500 [1:04:33<00:04, 49.97it/s] 54%|█████▍    | 272/500 [1:04:33<00:04, 52.81it/s] 56%|█████▌    | 279/500 [1:04:33<00:04, 54.86it/s] 57%|█████▋    | 286/500 [1:04:33<00:03, 56.68it/s] 59%|█████▊    | 293/500 [1:04:33<00:03, 58.02it/s] 60%|██████    | 300/500 [1:04:33<00:03, 58.99it/s] 61%|██████▏   | 307/500 [1:04:34<00:03, 59.09it/s] 63%|██████▎   | 314/500 [1:04:34<00:03, 59.77it/s] 64%|██████▍   | 321/500 [1:04:34<00:02, 60.09it/s] 66%|██████▌   | 328/500 [1:04:34<00:02, 60.48it/s] 67%|██████▋   | 335/500 [1:04:34<00:02, 59.06it/s] 68%|██████▊   | 341/500 [1:04:34<00:02, 56.17it/s] 70%|██████▉   | 348/500 [1:04:34<00:02, 57.65it/s] 71%|███████   | 355/500 [1:04:34<00:02, 58.72it/s] 72%|███████▏  | 362/500 [1:04:34<00:02, 59.35it/s] 74%|███████▍  | 369/500 [1:04:35<00:02, 59.65it/s] 75%|███████▌  | 376/500 [1:04:35<00:02, 59.85it/s] 77%|███████▋  | 383/500 [1:04:35<00:01, 59.69it/s] 78%|███████▊  | 390/500 [1:04:35<00:01, 60.35it/s] 79%|███████▉  | 397/500 [1:04:35<00:01, 60.66it/s] 81%|████████  | 404/500 [1:04:35<00:01, 61.20it/s] 82%|████████▏ | 411/500 [1:04:35<00:01, 60.16it/s] 84%|████████▎ | 418/500 [1:04:35<00:01, 60.13it/s] 85%|████████▌ | 425/500 [1:04:36<00:01, 60.20it/s] 86%|████████▋ | 432/500 [1:04:36<00:01, 60.40it/s] 88%|████████▊ | 439/500 [1:04:36<00:01, 60.54it/s] 89%|████████▉ | 446/500 [1:04:36<00:00, 60.79it/s] 91%|█████████ | 453/500 [1:04:36<00:00, 60.98it/s] 92%|█████████▏| 460/500 [1:04:36<00:00, 61.26it/s] 93%|█████████▎| 467/500 [1:04:36<00:00, 60.83it/s] 95%|█████████▍| 474/500 [1:04:36<00:00, 60.52it/s] 96%|█████████▌| 481/500 [1:04:36<00:00, 60.78it/s] 98%|█████████▊| 488/500 [1:04:37<00:00, 58.38it/s] 99%|█████████▉| 495/500 [1:04:37<00:00, 59.25it/s]100%|██████████| 500/500 [1:04:51<00:00, 59.25it/s]

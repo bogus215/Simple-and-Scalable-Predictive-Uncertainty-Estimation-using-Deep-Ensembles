@@ -1,0 +1,68 @@
+2020-12-06 14:49:09,396 INFO    MainThread:24452 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-06 14:49:09,396 INFO    MainThread:24452 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-06 14:49:09,396 INFO    MainThread:24452 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-06 14:49:09,397 INFO    MainThread:24452 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_144909-jmhsz18o\logs\debug.log
+2020-12-06 14:49:09,397 INFO    MainThread:24452 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_144909-jmhsz18o\logs\debug-internal.log
+2020-12-06 14:49:09,397 INFO    MainThread:24452 [wandb_run.py:finish():912] finishing run bogus215/1206_Non_bayesian_uncertainty/3uh7saic
+2020-12-06 14:49:09,397 INFO    MainThread:24452 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-12-06 14:49:09,398 INFO    MainThread:24452 [wandb_run.py:_restore():1160] restore
+2020-12-06 14:49:09,401 INFO    MainThread:24452 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "2170cce1a7f54864911214371623accf"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 3230
+      total_bytes: 3230
+    }
+  }
+}
+
+2020-12-06 14:49:11,402 INFO    MainThread:24452 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "f638369ed64b4d94b574708b9b36b7f5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 207555
+      total_bytes: 207555
+    }
+  }
+}
+
+2020-12-06 14:49:13,405 INFO    MainThread:24452 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "e73da141efeb4cabb1799ef5c552c89a"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 207555
+      total_bytes: 207555
+    }
+  }
+}
+
+2020-12-06 14:49:14,506 INFO    MainThread:24452 [wandb_run.py:_show_summary():1450] rendering summary
+2020-12-06 14:49:14,510 INFO    MainThread:24452 [wandb_run.py:_show_history():1488] rendering history
+2020-12-06 14:49:14,520 INFO    MainThread:24452 [wandb_run.py:_show_files():1517] logging synced files
+2020-12-06 14:49:16,960 INFO    MainThread:24452 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-06 14:49:16,961 INFO    MainThread:24452 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-12-06 14:49:16,961 INFO    MainThread:24452 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-12-06 14:49:16,961 INFO    MainThread:24452 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-06 14:49:16,961 INFO    MainThread:24452 [wandb_run.py:_config_callback():547] config_cb None None {'_wandb': {'cli_version': '0.10.11', 'python_version': '3.7.6', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'torch'}, 'learning_rate': 0.001, 'epoch': 300, 'batch_size': 100, 'gpu_device': 0, 'test': 2, 'experiment': 'temp', 'seed': 2}
+2020-12-06 14:49:16,994 INFO    MainThread:24452 [wandb_watch.py:watch():35] Watching
+2020-12-06 14:49:22,423 INFO    MainThread:24452 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-06 14:49:22,423 INFO    MainThread:24452 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-06 14:49:22,423 INFO    MainThread:24452 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-06 14:49:22,424 INFO    MainThread:24452 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_144922-2kbgp350\logs\debug.log
+2020-12-06 14:49:22,424 INFO    MainThread:24452 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_144922-2kbgp350\logs\debug-internal.log
+2020-12-06 14:49:22,424 INFO    MainThread:24452 [wandb_run.py:finish():912] finishing run bogus215/1206_Non_bayesian_uncertainty/jmhsz18o

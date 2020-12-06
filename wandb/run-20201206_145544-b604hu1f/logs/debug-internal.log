@@ -1,0 +1,699 @@
+2020-12-06 14:55:45,679 INFO    MainThread:7024 [internal.py:wandb_internal():63] W&B internal server running at pid: 7024
+2020-12-06 14:55:45,682 INFO    WriterThread:7024 [datastore.py:open_for_write():76] open: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\run-b604hu1f.wandb
+2020-12-06 14:55:45,682 DEBUG   SenderThread:7024 [sender.py:send():90] send: header
+2020-12-06 14:55:45,682 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: check_version
+2020-12-06 14:55:45,683 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:55:45,683 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: check_version
+2020-12-06 14:55:45,685 DEBUG   Thread-8  :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-12-06 14:55:45,846 DEBUG   Thread-8  :7024 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 52216
+2020-12-06 14:55:45,899 DEBUG   SenderThread:7024 [sender.py:send():90] send: run
+2020-12-06 14:55:45,918 DEBUG   SenderThread:7024 [util.py:is_cygwin_git():315] Failed checking if running in CYGWIN due to: FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다', None, 2, None)
+2020-12-06 14:55:45,920 DEBUG   SenderThread:7024 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-06 14:55:45,975 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:46,195 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:55:46,230 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: run_start
+2020-12-06 14:55:46,234 INFO    SenderThread:7024 [dir_watcher.py:__init__():165] watching files in: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files
+2020-12-06 14:55:46,234 INFO    SenderThread:7024 [sender.py:_start_run_threads():490] run started: b604hu1f with start time 1607234144
+2020-12-06 14:55:46,235 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:46,235 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:46,260 DEBUG   HandlerThread:7024 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-06 14:55:46,314 DEBUG   HandlerThread:7024 [cmd.py:execute():719] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles, universal_newlines=False, shell=None, istream=None)
+2020-12-06 14:55:46,617 DEBUG   SenderThread:7024 [sender.py:send():90] send: files
+2020-12-06 14:55:46,617 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:55:46,617 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-06 14:55:46,619 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:55:46,619 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:55:46,622 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:46,634 DEBUG   Thread-17 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:46,833 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:55:46,834 DEBUG   SenderThread:7024 [sender.py:send():90] send: config
+2020-12-06 14:55:46,838 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:46,850 DEBUG   Thread-17 :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:55:46,856 DEBUG   Thread-17 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-06 14:55:47,122 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:55:47,125 DEBUG   SenderThread:7024 [sender.py:send():90] send: run
+2020-12-06 14:55:47,129 DEBUG   SenderThread:7024 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-06 14:55:47,192 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:47,236 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\config.yaml
+2020-12-06 14:55:47,236 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:55:47,236 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-metadata.json
+2020-12-06 14:55:47,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:47,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\requirements.txt
+2020-12-06 14:55:47,257 DEBUG   Thread-17 :7024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/wandb-metadata.json?Expires=1607320547&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=anXSjdWlrozNUMpx%2BbHHDIkekJjT2%2B%2BT7BhZ2jztNPEn%2B7aDKRzpqR1gDu%2BUc1D6vsEAbwwr5nt28c1DpLbbNtf65JXYBFrI9ZfoqXDkQ4owwzooSf6Ii7KAPNKgsIHpMkjsLqf2xoflJucEgipik836fGr5pKW6ez3kklHUM2htH6Z31SZW7ohrz2VS%2FWVUbGlgVNO4VsJp7%2BHVlq1GVJKo3hgMAnUKC5mw8SfvUdulJ9fRXLFfnmfBtN9guNy3Wpf23CpTB1Oh605WvXOgispshb82Nx2m281Jt2ayzfVVOlJQgVea7%2BhFu3tUtjHwNKkm61%2B5B3fcnWLz3owb%2FQ%3D%3D HTTP/1.1" 200 0
+2020-12-06 14:55:47,259 INFO    Thread-17 :7024 [upload_job.py:push():131] Uploaded file C:\Users\Jinsoo\AppData\Local\Temp\tmplfk_1sn2wandb\2thlqxba-wandb-metadata.json
+2020-12-06 14:55:47,402 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:55:47,439 INFO    SenderThread:7024 [sender.py:send_run():393] updated run: b604hu1f
+2020-12-06 14:55:48,235 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:48,684 DEBUG   SenderThread:7024 [sender.py:send():90] send: files
+2020-12-06 14:55:48,684 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file media\graph\g.r.a.p.h._.0_summary_3ab8a76d.graph.json with policy now
+2020-12-06 14:55:48,685 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,687 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,687 DEBUG   Thread-9  :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:48,687 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,688 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,689 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,690 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,690 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,691 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,691 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,692 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,692 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,694 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,695 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,695 DEBUG   Thread-18 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:55:48,696 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,696 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,696 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,696 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,697 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,697 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,697 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,697 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,698 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,698 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,698 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,698 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:55:48,699 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:55:48,890 DEBUG   Thread-18 :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:55:48,895 DEBUG   Thread-18 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-06 14:55:48,991 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:55:49,236 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:55:49,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:49,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\media\graph\g.r.a.p.h._.0_summary_3ab8a76d.graph.json
+2020-12-06 14:55:49,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\media\graph
+2020-12-06 14:55:49,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_created():213] file/dir created: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\media
+2020-12-06 14:55:49,322 DEBUG   Thread-18 :7024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/media/graph/g.r.a.p.h._.0_summary_3ab8a76d.graph.json?Expires=1607320549&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=iT%2FZifncYVlnHlf5PFo%2BmqLAtZaqeIHLJeR9fGsNoIY2VjfquQFXmkRSgX27BnLDqq9xAqrhi%2FB3djbxqXdxERaJuRpz0ivJ8CkJD8aO92xjHIaYmsOlbgi%2F7HHgBs6VPGmsjoqSj%2Bntm%2FDY2wtQ8X7TWHIBIvuUeAbbV3%2BPYdN0d33nu5%2BDltskfvCboIX31hLhXRvj5%2B9T4RLACs4mv9aaIkbe4cgm0nuYAnnoELhOmBCY3EP6MO85skiO7NGLjFiwhCiZdpujrKJpnYfTnAiWey4TGrw9HsDzL90mmjQiJDT%2BEqfLA7zPyeVhCIpPFouWxEGc6GgICMkniKcxHA%3D%3D HTTP/1.1" 200 0
+2020-12-06 14:55:49,323 INFO    Thread-18 :7024 [upload_job.py:push():131] Uploaded file C:\Users\Jinsoo\AppData\Local\Temp\tmplfk_1sn2wandb\ib4hiqgj-media/graph/g.r.a.p.h._.0_summary_3ab8a76d.graph.json
+2020-12-06 14:55:49,909 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:55:50,236 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:51,237 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:52,121 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:55:52,242 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:53,242 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:54,242 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:54,640 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:55:54,859 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:55:55,243 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:56,243 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:57,241 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:55:57,243 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:58,244 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:59,245 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:55:59,358 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:55:59,581 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:00,245 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:01,245 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:01,600 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:01,834 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:56:01,834 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:56:01,834 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:56:01,836 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:56:02,040 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:56:02,245 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:02,326 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:56:02,329 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:56:02,331 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:56:03,246 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:56:03,246 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:04,068 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:04,247 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:04,662 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:05,249 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:06,248 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:07,249 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:08,248 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:08,831 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:08,905 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:09,250 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:10,251 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:11,126 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:11,253 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:12,254 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:13,254 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:13,575 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:13,811 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:14,255 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:15,255 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:15,797 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:16,256 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:16,484 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:56:16,487 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:56:16,490 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:56:17,042 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:56:17,042 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:56:17,042 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:56:17,045 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:56:17,257 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:56:17,258 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:17,287 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:56:18,268 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:18,361 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:18,971 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:19,268 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:20,270 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:21,270 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:22,271 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:23,112 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:23,272 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:23,332 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:24,288 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:25,289 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:25,580 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:26,290 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:27,292 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:27,865 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:28,090 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:28,292 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:29,293 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:30,178 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:30,293 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:31,034 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:56:31,037 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:56:31,041 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:56:31,295 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:56:31,295 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:32,290 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:56:32,290 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:56:32,290 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:56:32,292 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:56:32,295 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:32,554 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:56:32,609 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:33,129 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:33,297 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:34,298 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:35,299 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:36,299 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:37,301 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:37,435 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:37,647 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:38,302 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:39,302 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:40,303 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:41,091 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:41,304 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:42,212 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:42,305 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:43,307 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:44,307 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:45,309 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:46,310 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:46,904 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:56:46,907 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:56:46,913 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:56:46,977 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:47,310 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:56:47,311 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:47,557 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:56:47,557 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:56:47,557 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:56:47,559 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:56:47,823 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:56:48,311 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:49,318 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:50,318 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:51,319 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:51,727 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:52,315 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:56:52,321 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:53,320 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:54,322 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:55,323 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:56,323 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:56,470 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:56:57,325 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:58,326 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:56:59,326 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:00,328 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:01,129 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:57:01,132 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:57:01,135 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:57:01,230 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:01,330 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:57:01,330 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:02,331 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:02,826 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:57:02,826 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:57:02,826 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:57:02,828 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:57:03,025 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:57:03,331 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:04,331 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:05,331 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:05,969 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:06,332 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:06,569 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:57:07,332 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:08,333 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:09,333 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:10,334 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:10,709 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:11,335 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:12,336 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:13,336 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:14,336 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:15,338 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:15,404 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:57:15,408 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:57:15,412 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:57:15,476 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:16,339 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:57:16,340 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:17,339 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:18,027 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:57:18,027 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:57:18,027 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:57:18,029 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:57:18,216 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:57:18,340 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:19,340 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:20,205 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:20,341 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:20,773 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:57:21,351 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:22,351 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:23,353 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:24,354 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:24,936 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:25,355 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:26,355 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:27,356 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:28,356 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:29,358 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:29,674 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:29,711 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:57:29,715 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:57:29,719 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:57:30,360 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:57:30,360 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:31,360 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:32,361 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:33,217 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:57:33,217 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:57:33,217 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:57:33,219 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:57:33,361 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:33,418 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:57:34,362 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:34,411 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:34,990 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:57:35,362 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:36,364 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:37,363 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:38,364 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:39,172 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:39,366 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:40,367 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:41,367 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:42,369 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:43,369 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:43,919 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:44,051 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:57:44,054 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:57:44,057 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:57:44,371 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:57:44,371 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:45,370 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:46,371 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:47,373 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:48,373 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:48,421 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:57:48,421 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:57:48,421 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:57:48,423 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:57:48,613 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:57:48,675 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:49,195 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:57:49,374 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:50,373 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:51,375 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:52,375 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:53,376 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:53,413 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:54,376 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:55,377 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:56,379 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:57,380 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:58,152 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:57:58,243 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:57:58,247 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:57:58,251 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:57:58,382 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:57:58,382 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:57:59,384 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:00,385 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:01,386 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:02,386 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:02,890 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:03,388 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:03,417 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:58:03,616 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:58:03,616 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:58:03,616 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:58:03,618 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:58:03,818 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:58:04,390 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:05,389 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:06,412 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:07,412 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:07,636 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:08,413 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:09,413 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:10,414 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:11,415 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:12,367 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:12,416 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:12,455 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:58:12,458 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:58:12,461 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:58:13,417 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:58:13,418 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:14,417 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:15,418 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:16,418 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:17,102 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:17,418 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:17,696 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:58:18,419 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:18,820 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:58:18,820 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:58:18,820 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:58:18,822 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:58:19,102 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:58:19,420 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:20,422 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:21,421 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:21,868 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:22,423 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:23,424 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:24,424 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:25,425 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:26,425 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:26,626 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:26,787 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:58:26,791 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:58:26,795 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:58:27,425 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:58:27,426 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:28,426 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:29,427 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:30,427 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:31,394 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:31,427 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:31,878 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:58:32,428 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:33,429 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:34,106 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:58:34,106 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:58:34,106 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:58:34,108 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:58:34,307 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:58:34,430 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:35,431 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:36,155 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:36,433 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:37,433 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:38,434 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:39,434 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:40,435 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:40,915 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:41,103 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:58:41,107 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:58:41,110 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:58:41,436 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:58:41,436 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:42,438 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:43,438 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:44,439 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:45,439 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:45,705 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:46,259 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:58:46,441 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:47,441 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:48,442 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:49,310 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:58:49,310 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:58:49,310 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:58:49,312 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:58:49,442 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:49,515 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:58:50,444 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:50,486 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:51,443 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:52,445 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:53,445 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:54,445 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:55,255 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:58:55,338 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:58:55,341 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:58:55,345 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:58:55,446 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:58:55,447 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:56,447 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:57,447 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:58,448 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:58:59,450 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:00,000 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:00,451 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:00,527 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:59:01,452 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:02,453 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:03,454 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:04,453 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:04,518 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:59:04,518 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:59:04,518 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:59:04,520 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:59:04,750 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:59:04,756 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:05,453 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:06,453 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:07,454 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:08,454 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:09,454 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:09,507 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:09,617 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:59:09,621 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:59:09,624 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:59:10,455 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:59:10,456 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:11,456 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:12,456 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:13,458 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:14,255 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:14,458 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:14,788 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:59:15,460 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:16,461 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:17,462 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:18,463 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:19,007 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:19,463 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:19,756 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:59:19,756 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:59:19,756 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:59:19,758 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:59:19,949 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:59:20,465 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:21,466 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:22,467 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:23,467 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:23,786 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:23,948 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:59:23,950 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:59:23,955 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:59:24,468 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:59:24,469 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:25,470 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:26,471 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:27,470 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:28,490 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:28,549 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:29,065 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:59:29,490 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:30,490 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:31,492 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:32,493 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:33,299 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:33,494 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:34,495 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:34,952 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:59:34,952 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:59:34,952 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:59:34,954 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:59:35,174 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:59:35,497 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:36,498 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:37,499 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:38,040 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:38,179 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:59:38,181 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:59:38,184 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:59:38,500 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:59:38,500 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:39,500 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:40,501 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:41,502 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:42,502 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:42,774 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:43,327 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:59:43,504 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:44,504 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:45,505 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:46,505 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:47,506 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:47,525 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:48,507 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:49,509 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:50,177 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 14:59:50,177 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 14:59:50,177 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 14:59:50,179 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 14:59:50,395 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 14:59:50,511 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:51,511 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:52,273 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:52,395 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 14:59:52,399 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 14:59:52,402 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 14:59:52,513 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 14:59:52,513 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:53,514 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:54,516 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:55,517 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:56,518 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:57,033 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 14:59:57,519 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:57,540 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 14:59:58,519 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 14:59:59,519 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:00,521 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:01,521 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:01,792 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 15:00:02,522 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:03,521 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:04,523 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:05,398 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: status
+2020-12-06 15:00:05,398 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:05,398 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: status
+2020-12-06 15:00:05,400 DEBUG   SenderThread:7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 15:00:05,523 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:05,666 DEBUG   SenderThread:7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 15:00:06,525 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 15:00:06,526 INFO    Thread-12 :7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:06,612 DEBUG   SenderThread:7024 [sender.py:send():90] send: history
+2020-12-06 15:00:06,615 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 15:00:06,616 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-06 15:00:06,619 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 15:00:06,619 DEBUG   SenderThread:7024 [sender.py:send():90] send: exit
+2020-12-06 15:00:06,619 INFO    SenderThread:7024 [sender.py:send_exit():168] handling exit code: 0
+2020-12-06 15:00:06,619 INFO    SenderThread:7024 [sender.py:send_exit():176] send defer
+2020-12-06 15:00:06,619 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:06,619 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: poll_exit
+2020-12-06 15:00:06,620 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:06,620 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 0
+2020-12-06 15:00:06,620 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:06,620 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:06,620 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-12-06 15:00:06,620 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 1
+2020-12-06 15:00:06,620 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:06,620 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 1
+2020-12-06 15:00:06,679 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:06,679 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:06,679 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-12-06 15:00:06,679 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 2
+2020-12-06 15:00:06,679 DEBUG   SenderThread:7024 [sender.py:send():90] send: stats
+2020-12-06 15:00:06,680 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:06,680 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 2
+2020-12-06 15:00:06,680 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:06,680 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:06,680 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-12-06 15:00:06,680 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 3
+2020-12-06 15:00:06,680 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:06,681 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 3
+2020-12-06 15:00:06,682 DEBUG   SenderThread:7024 [sender.py:send():90] send: summary
+2020-12-06 15:00:06,685 INFO    SenderThread:7024 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-06 15:00:06,685 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:06,685 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:06,685 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-12-06 15:00:06,685 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 4
+2020-12-06 15:00:06,686 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:06,686 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 4
+2020-12-06 15:00:06,686 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:06,686 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:06,686 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-12-06 15:00:06,686 INFO    SenderThread:7024 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-06 15:00:07,526 INFO    SenderThread:7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 15:00:07,527 INFO    SenderThread:7024 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:07,527 INFO    SenderThread:7024 [dir_watcher.py:finish():309] scan: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files
+2020-12-06 15:00:07,528 INFO    SenderThread:7024 [dir_watcher.py:finish():315] scan save: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\config.yaml config.yaml
+2020-12-06 15:00:07,528 INFO    SenderThread:7024 [dir_watcher.py:finish():315] scan save: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log output.log
+2020-12-06 15:00:07,528 INFO    SenderThread:7024 [dir_watcher.py:finish():315] scan save: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\requirements.txt requirements.txt
+2020-12-06 15:00:07,531 INFO    SenderThread:7024 [dir_watcher.py:finish():315] scan save: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-metadata.json wandb-metadata.json
+2020-12-06 15:00:07,531 INFO    SenderThread:7024 [dir_watcher.py:finish():315] scan save: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json wandb-summary.json
+2020-12-06 15:00:07,534 DEBUG   Thread-19 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 15:00:07,536 DEBUG   Thread-20 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 15:00:07,539 DEBUG   Thread-21 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 15:00:07,540 INFO    SenderThread:7024 [dir_watcher.py:finish():315] scan save: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\media\graph\g.r.a.p.h._.0_summary_3ab8a76d.graph.json media\graph\g.r.a.p.h._.0_summary_3ab8a76d.graph.json
+2020-12-06 15:00:07,540 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 5
+2020-12-06 15:00:07,540 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:07,540 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 5
+2020-12-06 15:00:07,540 DEBUG   Thread-22 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-06 15:00:07,541 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:07,541 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:07,541 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-12-06 15:00:07,541 INFO    SenderThread:7024 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-06 15:00:07,541 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 6
+2020-12-06 15:00:07,542 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:07,542 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 6
+2020-12-06 15:00:07,542 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:07,542 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:07,542 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-12-06 15:00:07,739 DEBUG   Thread-19 :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 15:00:07,742 DEBUG   Thread-19 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-06 15:00:07,744 DEBUG   Thread-20 :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 15:00:07,751 DEBUG   Thread-21 :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 15:00:07,756 DEBUG   Thread-20 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-06 15:00:07,758 DEBUG   Thread-21 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-06 15:00:07,765 DEBUG   Thread-22 :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-06 15:00:07,774 DEBUG   Thread-22 :7024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-06 15:00:08,113 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 15:00:08,222 DEBUG   Thread-22 :7024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/wandb-summary.json?Expires=1607320808&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=YB6aE6skKyc0ViRTGjveQeTEkgG7o0IComydulg5OYCXggpLvDXZBFKlepshIsPd5dWOzNL4KDNKti6AiQgoDuASFhKKio8Br8DaLWT4213AxJj3V8xK7%2FbXbsgZtZL9UD%2F68EdgvsA11rDLC7zIKPaQaLZCXzTeRPGn0d1WgeDFnS%2Fgr%2FrHsCx1SnwuwO%2FiykjC1CbqbBlLA3Mj%2Fzjw2Bb7esu4fpw9U%2BQ%2B73AqF%2BUpoynwUUBe9rRhSUboBSawd2kJJ21JgMyOaGPge77fIyplekZXPnPyrszYLhgeDVI2XibhGycD5%2BJKAYVKD4INxYpsiM8he4rNDBesaoo8TQ%3D%3D HTTP/1.1" 200 0
+2020-12-06 15:00:08,223 INFO    Thread-22 :7024 [upload_job.py:push():131] Uploaded file D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\wandb-summary.json
+2020-12-06 15:00:08,227 DEBUG   Thread-19 :7024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/config.yaml?Expires=1607320808&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jhVJYFxTNuow%2Bc%2FRY%2F2%2Fn2ZJfeaZgYNRb8OOXNArEwbVdCmpPzyc7SAiFaSu1b0h%2FCv91rlZYig8tJkCr6DZ6xj38pef1GzClskDn2bJBLt2UOlGg7u1wPV6szCZj4oCU8R0WhFVLqSv%2B963%2FfD3CrwVg6WWv3Af1kmthL2Zq9x6ByFdiVckqEt4LpdwjMpjBsxa5RRGA%2B44Vn7uJzbtBAP%2F9OGSfES9m24eAxYRne%2FofmSbzItqwh7Z5Fx15x0S%2FB0sito89W1pf6krDpv3Fj7ROjytO%2FzMgAxpj8Ibpe%2BLnye9HhzN6RlQKdP3d6L6gbA2Zl0dKGlHI0t8RceSag%3D%3D HTTP/1.1" 200 0
+2020-12-06 15:00:08,228 INFO    Thread-19 :7024 [upload_job.py:push():131] Uploaded file D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\config.yaml
+2020-12-06 15:00:08,243 DEBUG   Thread-21 :7024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/requirements.txt?Expires=1607320808&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=cqACc672TnJPiAEwhLwHfWmmQ8aRQATjUuiXKVDi5sWQN%2Bgr8sjiZER%2BSS3JPliqHXGztVGHIkbfmg9OP%2FEmcZLAhx1wQeUwiUjxSANbGUW298CGYhbJSQb6qg6ODoOzbz00HA2LIdY1eTSVYfKLFRcQHD%2FrZQbeZ2cSJ2Q5chIWsWPb%2BIDYbkzxS4HDbQeCbWBDmsLuk1eHKHBbfZyNGkv%2Fx11F1aJCKbZ19gZJk9R8d866uDc%2BGs31c3n%2Bem3q1%2FfYTKGWzEv9aD%2Fd24BODM5h4YH8FQq%2BYzaGj3jpl732O3ES6q0MPxK7y%2FENS%2Bgabd0tFKoKw%2FKblVqdu45rGg%3D%3D HTTP/1.1" 200 0
+2020-12-06 15:00:08,244 INFO    Thread-21 :7024 [upload_job.py:push():131] Uploaded file D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\requirements.txt
+2020-12-06 15:00:08,301 DEBUG   Thread-9  :7024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/file_stream HTTP/1.1" 200 None
+2020-12-06 15:00:08,302 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 7
+2020-12-06 15:00:08,303 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:08,303 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 7
+2020-12-06 15:00:08,303 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:08,303 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:08,303 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-12-06 15:00:08,303 INFO    SenderThread:7024 [sender.py:send_request_defer():221] send defer: 8
+2020-12-06 15:00:08,303 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: defer
+2020-12-06 15:00:08,303 INFO    HandlerThread:7024 [handler.py:handle_request_defer():69] handle defer: 8
+2020-12-06 15:00:08,304 DEBUG   SenderThread:7024 [sender.py:send():90] send: final
+2020-12-06 15:00:08,304 DEBUG   SenderThread:7024 [sender.py:send():90] send: footer
+2020-12-06 15:00:08,304 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:08,304 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: defer
+2020-12-06 15:00:08,304 INFO    SenderThread:7024 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-12-06 15:00:08,612 DEBUG   Thread-20 :7024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/bogus215/1206_Non_bayesian_uncertainty/b604hu1f/output.log?Expires=1607320808&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=aCgo9DUz0UfANNwWNNhwi6xcy%2BdtP8vBFCtY3385rMRAGj0KKMx8NcY8%2FxxVbMNW3TITxiLHFo5%2BEBHS8HQBEJct%2B%2F1zCwFBu8A40gufHz18zXEydrL%2BJqymwJ2dz7k0%2FeYAZTt3mHPhmhML3jPRwxDCGokKT8Ou0xxsmf6No6mUS2HvgTGM7a4bwUPo8lyqsNDaoF7KQ50DCDz%2BSBhnevbfTE2BprlhPE4RCUbsQs58GgL4zAoC2nGt8DqtbTZ1Wv07Trfx86yFhllHhPCUnQwXO7TNGaS9oHMc3y%2B7152hxB49z5lbO1fKl273Id8j54W7hiTL4IhXuXRh0UFqPw%3D%3D HTTP/1.1" 200 0
+2020-12-06 15:00:08,614 INFO    Thread-20 :7024 [upload_job.py:push():131] Uploaded file D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\files\output.log
+2020-12-06 15:00:08,622 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-06 15:00:08,622 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:08,622 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: poll_exit
+2020-12-06 15:00:10,623 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-06 15:00:10,623 DEBUG   SenderThread:7024 [sender.py:send():90] send: request
+2020-12-06 15:00:10,623 DEBUG   SenderThread:7024 [sender.py:send_request():99] send_request: poll_exit
+2020-12-06 15:00:10,623 INFO    SenderThread:7024 [file_pusher.py:join():174] waiting for file pusher
+2020-12-06 15:00:10,625 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: get_summary
+2020-12-06 15:00:10,628 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: sampled_history
+2020-12-06 15:00:10,629 DEBUG   HandlerThread:7024 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-06 15:00:10,629 INFO    HandlerThread:7024 [handler.py:finish():271] shutting down handler
+2020-12-06 15:00:11,306 INFO    WriterThread:7024 [datastore.py:close():257] close: D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201206_145544-b604hu1f\run-b604hu1f.wandb
+2020-12-06 15:00:11,624 INFO    SenderThread:7024 [sender.py:finish():642] shutting down sender
+2020-12-06 15:00:11,624 INFO    SenderThread:7024 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-06 15:00:11,624 INFO    SenderThread:7024 [file_pusher.py:join():174] waiting for file pusher
+2020-12-06 15:00:11,625 INFO    MainThread:7024 [internal.py:handle_exit():138] Internal process exited

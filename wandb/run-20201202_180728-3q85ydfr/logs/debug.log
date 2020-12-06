@@ -1,0 +1,11 @@
+2020-12-02 18:07:28,378 INFO    MainThread:25480 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 18:07:28,378 INFO    MainThread:25480 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 18:07:28,378 INFO    MainThread:25480 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 18:07:28,379 INFO    MainThread:25480 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_180728-3q85ydfr\logs\debug.log
+2020-12-02 18:07:28,379 INFO    MainThread:25480 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_180728-3q85ydfr\logs\debug-internal.log
+2020-12-02 18:07:32,323 INFO    MainThread:25480 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-02 18:07:32,324 INFO    MainThread:25480 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-12-02 18:07:32,325 INFO    MainThread:25480 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-12-02 18:07:32,325 INFO    MainThread:25480 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-02 18:07:32,326 INFO    MainThread:25480 [wandb_run.py:_config_callback():547] config_cb None None {'_wandb': {'cli_version': '0.10.11', 'python_version': '3.7.6', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'torch'}, 'learning_rate': 0.001, 'epoch': 300, 'batch_size': 100, 'gpu_device': 0, 'test': 2, 'experiment': 'temp', 'seed': 1}
+2020-12-02 18:07:33,546 INFO    MainThread:25480 [wandb_watch.py:watch():35] Watching

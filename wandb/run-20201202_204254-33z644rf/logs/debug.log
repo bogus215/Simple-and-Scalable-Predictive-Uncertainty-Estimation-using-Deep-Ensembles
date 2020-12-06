@@ -1,0 +1,62 @@
+2020-12-02 20:42:54,267 INFO    MainThread:26720 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 20:42:54,267 INFO    MainThread:26720 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 20:42:54,267 INFO    MainThread:26720 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 20:42:54,268 INFO    MainThread:26720 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_204254-33z644rf\logs\debug.log
+2020-12-02 20:42:54,268 INFO    MainThread:26720 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_204254-33z644rf\logs\debug-internal.log
+2020-12-02 20:42:56,628 INFO    MainThread:26720 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-02 20:42:56,629 INFO    MainThread:26720 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-12-02 20:42:56,629 INFO    MainThread:26720 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-12-02 20:42:56,629 INFO    MainThread:26720 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-02 20:42:56,630 INFO    MainThread:26720 [wandb_run.py:_config_callback():547] config_cb None None {'_wandb': {'cli_version': '0.10.11', 'python_version': '3.7.6', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'torch'}, 'learning_rate': 0.001, 'epoch': 300, 'batch_size': 100, 'gpu_device': 0, 'test': 2, 'experiment': '1202_ensemble_AT', 'seed': 5}
+2020-12-02 20:42:57,923 INFO    MainThread:26720 [wandb_watch.py:watch():35] Watching
+2020-12-02 20:47:32,571 INFO    MainThread:26720 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 0
+2020-12-02 20:47:32,572 INFO    MainThread:26720 [wandb_run.py:_restore():1160] restore
+2020-12-02 20:47:32,577 INFO    MainThread:26720 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "a4829b4945ae46f3b698c5883011f6a2"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 3244
+      total_bytes: 3244
+    }
+  }
+}
+
+2020-12-02 20:47:34,580 INFO    MainThread:26720 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "d782be53a9a247ae8c398a5214f9f8bb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 397250
+      total_bytes: 763327
+    }
+  }
+}
+
+2020-12-02 20:47:36,584 INFO    MainThread:26720 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "50697cc3554f4a4fa52a84f421116cd1"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 763327
+      total_bytes: 763327
+    }
+  }
+}
+
+2020-12-02 20:47:37,704 INFO    MainThread:26720 [wandb_run.py:_show_summary():1450] rendering summary
+2020-12-02 20:47:37,708 INFO    MainThread:26720 [wandb_run.py:_show_history():1488] rendering history
+2020-12-02 20:47:37,719 INFO    MainThread:26720 [wandb_run.py:_show_files():1517] logging synced files
+2020-12-02 20:47:37,721 INFO    MainThread:26720 [internal.py:handle_exit():138] Internal process exited

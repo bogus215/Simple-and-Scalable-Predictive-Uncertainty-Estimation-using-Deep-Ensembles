@@ -1,0 +1,5 @@
+2020-12-02 18:06:33,333 INFO    MainThread:5892 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-02 18:06:33,334 INFO    MainThread:5892 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-02 18:06:33,334 INFO    MainThread:5892 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 18:06:33,334 INFO    MainThread:5892 [wandb_init.py:_log_setup():303] Logging user logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_180633-303h109z\logs\debug.log
+2020-12-02 18:06:33,334 INFO    MainThread:5892 [wandb_init.py:_log_setup():304] Logging internal logs to D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\wandb\run-20201202_180633-303h109z\logs\debug-internal.log

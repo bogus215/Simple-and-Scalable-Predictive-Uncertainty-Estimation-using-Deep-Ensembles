@@ -1,0 +1,113 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+===> epoch 1
+  0%|          | 0/500 [00:00<?, ?it/s]  0%|          | 1/500 [00:00<06:59,  1.19it/s]Python 3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.18.1 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 7.18.1
+
+Out[1]: 
+Base(
+  (input): Linear(in_features=784, out_features=200, bias=True)
+  (batch0): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden1): Linear(in_features=200, out_features=200, bias=True)
+  (batch1): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden2): Linear(in_features=200, out_features=200, bias=True)
+  (batch2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (hidden3): Linear(in_features=200, out_features=200, bias=True)
+  (batch3): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (final): Linear(in_features=200, out_features=10, bias=True)
+  (relu): ReLU(inplace=True)
+)
+Out[2]: <generator object Module.parameters at 0x000001DF08241A48>
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-3-05216909e107>", line 1, in <module>
+    args.model.load_state_dict()
+TypeError: load_state_dict() missing 1 required positional argument: 'state_dict'
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-4-9366b5a69b1e>", line 1, in <module>
+    summary
+NameError: name 'summary' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-5-0f65af0b010f>", line 1, in <module>
+    summary(args.model)
+NameError: name 'summary' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-6-0f65af0b010f>", line 1, in <module>
+    summary(args.model)
+NameError: name 'summary' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\IPython\core\interactiveshell.py", line 3417, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-7-000215d07730>", line 1, in <module>
+    from torchsummary import summary
+  File "C:\Program Files\JetBrains\PyCharm 2020.2.1\plugins\python\helpers\pydev\_pydev_bundle\pydev_import_hook.py", line 21, in do_import
+    module = self._system_import(name, *args, **kwargs)
+ModuleNotFoundError: No module named 'torchsummary'
+Out[8]: <generator object Module.parameters at 0x000001DF082BBAC8>
+Out[9]: <generator object Module.named_parameters at 0x000001DF082BBA48>
+Python 3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)] on win32
+Out[17]: tensor(2.1112, device='cuda:0', grad_fn=<NllLossBackward>)
+Out[19]: tensor(2.1112, device='cuda:0', grad_fn=<NllLossBackward>)
+Out[20]: 
+tensor([[ 2.5354e-04,  6.9844e-04,  2.3050e-04,  ...,  1.1209e-04,
+          1.5420e-05,  3.8146e-04],
+        [ 4.0264e-04, -8.1544e-04, -5.0597e-05,  ...,  2.1265e-04,
+          4.4999e-04, -5.5443e-04],
+        [-4.0200e-04, -8.3868e-04,  7.4141e-04,  ...,  3.3232e-04,
+          4.5227e-04, -1.8463e-04],
+        ...,
+        [-1.4743e-04, -5.9681e-04,  2.8049e-04,  ..., -9.2264e-04,
+          5.1006e-04, -8.7828e-04],
+        [-1.5796e-05,  6.7794e-04,  5.0293e-04,  ..., -1.1843e-04,
+          2.7396e-04,  4.7468e-04],
+        [-4.4093e-05,  1.9537e-05, -2.1462e-05,  ...,  3.8261e-05,
+         -3.5043e-04, -1.1745e-04]], device='cuda:0')
+Out[21]: 
+tensor([[ 1.,  1.,  1.,  ...,  1.,  1.,  1.],
+        [ 1., -1., -1.,  ...,  1.,  1., -1.],
+        [-1., -1.,  1.,  ...,  1.,  1., -1.],
+        ...,
+        [-1., -1.,  1.,  ..., -1.,  1., -1.],
+        [-1.,  1.,  1.,  ..., -1.,  1.,  1.],
+        [-1.,  1., -1.,  ...,  1., -1., -1.]], device='cuda:0')
+Out[22]: 
+tensor([[ 1.,  1.,  1.,  ...,  1.,  1.,  1.],
+        [ 1., -1., -1.,  ...,  1.,  1., -1.],
+        [-1., -1.,  1.,  ...,  1.,  1., -1.],
+        ...,
+        [-1., -1.,  1.,  ..., -1.,  1., -1.],
+        [-1.,  1.,  1.,  ..., -1.,  1.,  1.],
+        [-1.,  1., -1.,  ...,  1., -1., -1.]], device='cuda:0')
+Out[23]: 
+tensor([[ 1.,  1.,  1.,  ...,  1.,  1.,  1.],
+        [ 1., -1., -1.,  ...,  1.,  1., -1.],
+        [-1., -1.,  1.,  ...,  1.,  1., -1.],
+        ...,
+        [-1., -1.,  1.,  ..., -1.,  1., -1.],
+        [-1.,  1.,  1.,  ..., -1.,  1.,  1.],
+        [-1.,  1., -1.,  ...,  1., -1., -1.]], device='cuda:0')
+Out[24]: 
+tensor([[ 2.5354e-04,  6.9844e-04,  2.3050e-04,  ...,  1.1209e-04,
+          1.5420e-05,  3.8146e-04],
+        [ 4.0264e-04, -8.1544e-04, -5.0597e-05,  ...,  2.1265e-04,
+          4.4999e-04, -5.5443e-04],
+        [-4.0200e-04, -8.3868e-04,  7.4141e-04,  ...,  3.3232e-04,
+          4.5227e-04, -1.8463e-04],
+        ...,
+        [-1.4743e-04, -5.9681e-04,  2.8049e-04,  ..., -9.2264e-04,
+          5.1006e-04, -8.7828e-04],
+        [-1.5796e-05,  6.7794e-04,  5.0293e-04,  ..., -1.1843e-04,
+          2.7396e-04,  4.7468e-04],
+        [-4.4093e-05,  1.9537e-05, -2.1462e-05,  ...,  3.8261e-05,
+         -3.5043e-04, -1.1745e-04]], device='cuda:0')
+  0%|          | 2/500 [05:41<14:13:22, 102.82s/it]Out[38]: True
+  1%|          | 3/500 [05:52<10:22:07, 75.11s/it] Out[52]: True

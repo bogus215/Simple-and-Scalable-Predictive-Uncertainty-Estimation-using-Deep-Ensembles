@@ -1,0 +1,16 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+===> epoch 1
+  0%|          | 0/500 [00:00<?, ?it/s]                                       failed
+['train_ensemble_AT.py', '--seed', '2']
+start
+failed
+['train_ensemble_AT.py', '--seed', '3']
+start
+failed
+['train_ensemble_AT.py', '--seed', '4']
+start
+failed
+['train_ensemble_AT.py', '--seed', '5']
+start
+failed

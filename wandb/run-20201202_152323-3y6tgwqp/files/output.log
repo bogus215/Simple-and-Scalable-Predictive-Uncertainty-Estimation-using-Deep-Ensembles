@@ -1,0 +1,17 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+===> epoch 1
+  0%|          | 0/500 [00:00<?, ?it/s]                                       Traceback (most recent call last):
+  File "D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_dropout.py", line 42, in train
+    pred = F.softmax(args.model(feature),dim=1)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\nn\modules\module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "D:\2020-2\비즈니스애널리틱스\논문리뷰\Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles\model.py", line 59, in forward
+    x = self.input(x)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\nn\modules\module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\nn\modules\linear.py", line 91, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\Jinsoo\Anaconda3\envs\torch\lib\site-packages\torch\nn\functional.py", line 1676, in linear
+    output = input.matmul(weight.t())
+RuntimeError: mat1 dim 1 must match mat2 dim 0

@@ -1,0 +1,7 @@
+wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+===> epoch 1
+  0%|          | 0/500 [00:00<?, ?it/s]                                       Traceback (most recent call last):
+  File "D:/2020-2/비즈니스애널리틱스/논문리뷰/Simple-and-Scalable-Predictive-Uncertainty-Estimation-using-Deep-Ensembles/train_dropout.py", line 39, in train
+    feature = batch[0].cuda(args.gpu_device).view(feature.size(0),28*28)
+UnboundLocalError: local variable 'feature' referenced before assignment
